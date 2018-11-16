@@ -24,7 +24,12 @@ class Player:
     def play(self, track):
         self.paused = False
         self.currentSong = track
-        self.wf = wave.open(track, 'rb')
+        
+        try:
+            self.wf = wave.open(track, 'rb')
+        except CLI_Audio_File_Exception:
+            print("Couldn't open file")
+                    
 
         # instantiate PyAudio (1)
         self.p = pyaudio.PyAudio()
