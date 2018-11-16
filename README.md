@@ -1,4 +1,4 @@
-For some reason, it explodes some text at me after I change songs, but I really couldn't understand what it was saying, so ¯\_(ツ)_/¯
+For some reason, it explodes some text at me after I change songs, but I really couldn't understand what it was saying, so ¯\\_(ツ)_/¯
 
 
 
