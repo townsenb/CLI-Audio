@@ -1,4 +1,4 @@
-"""PyAudio Example: Play a wave file (callback version)."""
+"PyAudio Example: Play a wave file (callback version)."""
 
 import pyaudio
 import wave
